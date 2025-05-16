@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0f172a;
+}
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 300px;
+  padding: 20px;
+  margin: 100px auto;
+  background: #1e293b;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 4px 8px rgba(255, 255, 255, 0.02);
+}
+.App .div {
+  display: flex;
+  border-radius: 10px;
+}
+.App .div input[type="text"],
+.editting {
+  flex: 1;
+  border-style: none;
+  margin: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  outline: none;
+  background-color: #0f172a;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.App .div button {
+  border-style: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+  background-color: #0f172a;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-left: 1px solid #1e293b;
+}
+.App .div button:focus {
+  outline: none;
+}
+input {
+  padding: 8px;
+  margin-right: 10px;
+  height: 35px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 6px 10px;
+}
+ul {
+  margin-top: 10px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  margin: 0;
+  border-bottom: 1px solid #33415542;
+}
+
+.checkIcon {
+  position: relative;
+  border: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+.checkIcon i {
+  color: white;
+  font-size: 14px;
+}
+.text {
+  flex: 1;
+  justify-content: flex-start;
+  display: flex;
+  margin-left: 15px;
+}
+.deleteBtn {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d81b60;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.deleteBtn i {
+  color: white;
+}
+.edit {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
